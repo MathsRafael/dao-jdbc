@@ -9,6 +9,7 @@ public class Program {
 	public static void main(String[] args) {
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		Seller seller = sellerDao.findById(1);
+		System.out.println("=========== Test 1 - FindByID ========");
 		System.out.println(seller);
 	}
 
